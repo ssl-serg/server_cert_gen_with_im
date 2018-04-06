@@ -1,15 +1,13 @@
-# server_cert_gen_with_im
+# Test server certificate generation script 
 
-Test server certificate generation script 
-
-# Desc
+## Description
 
 It creates server certificate with CA & IM CA root chain: 
 <pre>CA -> IM CA -> Server Cert</pre>
 
 openssl.exe tool required to launch script !
 
-# Settings
+## Settings
 
 Look at create_server_cert.cmd for configuration details:
 <pre>
@@ -22,7 +20,8 @@ Look at create_server_cert.cmd for configuration details:
 
   set CRT_PKCS12_PWD=1234
 </pre>
-# Result
+
+## Result
 
 As result, the server certificate will be created at "pub" directory:
 
