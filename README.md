@@ -5,11 +5,11 @@
 It creates server certificate with CA & IM CA root chain: 
 <pre>CA -> IM CA -> Server Cert</pre>
 
-openssl.exe tool required to launch script !
+**openssl.exe** tool required to launch script !
 
 ## Settings
 
-Look at create_server_cert.cmd for configuration details:
+Look at **create_server_cert.cmd** for configuration details:
 <pre>
   set CRT_CA_DAYS=3650
   set CRT_CA_IM_DAYS=3650
