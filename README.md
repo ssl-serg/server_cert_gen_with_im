@@ -4,7 +4,8 @@ Test server certificate generation script
 
 # Desc
 
-It creates server certificate with CA and IM CA in chain: CA -> IM CA -> Server Cert
+It creates server certificate with CA & IM CA root chain: 
+<pre>CA -> IM CA -> Server Cert</pre>
 
 openssl.exe tool required to launch script !
 
