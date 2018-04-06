@@ -1,4 +1,4 @@
-# Test server certificate generation script 
+# Test server certificate generator (Windows Batch Script)
 
 ## Description
 
