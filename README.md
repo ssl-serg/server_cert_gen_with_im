@@ -25,7 +25,7 @@ Look at create_server_cert.cmd for configuration details:
 
 As result, the server certificate will be created at "pub" directory:
 
-- **server_cert.key** - server certificate's key
+- **server_cert.key** - server certificate's unencrypted key
 
 - **server_cert.p12** - pkcs#12 server certificate's container with full root chain (CA, IM CA) included
 
